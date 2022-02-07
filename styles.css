@@ -1,0 +1,100 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+}
+
+article {
+  max-width: 620px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+
+p, ul, ol, dl {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin-bottom: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2.75rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 16px 0; 
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 14px p 8px p;
+}
+
+.credit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#description {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+#yield {
+  border-bottom: 1px grey dotted;
+  border-top: 1px grey dotted;
+}
+
+dl {
+  font-family: 'Franklin Gothic', Arial, sans-serif;
+  font-size: 1.1rem;
+  padding: 12px 0;
+}
+
+dt {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+#nutrition li {
+  list-style-type: none;
+  border-bottom: grey dotted 1px;
+  float: left;
+  width: 48%;
+}
+
+#nutrition li:nth-child(odd) {
+  clear:both;
+  margin-right: 10px;
+}
+
+#nutrition .nutri-value {
+  float: right;
+}
+
+footer {
+  clear:both;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font: 1rem Arial;
+}
